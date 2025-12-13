@@ -3,139 +3,169 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Raj Engineering | Plastic Die Maker in Mumbai | Bakelite, Blow & PET Mould Manufacturer</title>
-  <meta name="description" content="Raj Engineering is the top plastic die maker in Mumbai providing Bakelite moulds, blow moulds, PET moulds, and plastic mould manufacturing for industrial and commercial use." />
-  <meta name="keywords" content="plastic die maker in mumbai, bakelite mould manufacturer, blow mould manufacturer, pet mould manufacturers in mumbai, plastic mould manufacturer india, engineering moulds mumbai" />
-  <meta name="robots" content="index, follow" />
-  <meta name="author" content="Raj Engineering" />
+  <meta name="description" content="Raj Engineering - Top Plastic Die Maker in Mumbai, India. Specialists in Bakelite Moulds, Blow Moulds, PET Moulds, Plastic Moulds, Electric & Electronic Moulds, CNC Machining, AutoCAD Design." />
+  <title>Raj Engineering | Top Plastic Die Maker in Mumbai</title>
+  <meta name="keywords" content="die maker, die mould, plastic mould, mould manufacturer, top plastic mould manufacturer, die maker in mumbai, die maker dahisar" />
 
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background:#f5f5f5; }
-    header { background: #0a3d62; color: #fff; padding: 40px 20px; text-align: center; }
-    header h1 { margin: 0; font-size: 36px; }
-    header p { font-size: 18px; margin-top: 10px; }
+    body { font-family: Arial, sans-serif; margin: 0; background: #f5f5f5; }
+    header { background: #004aad; color: #fff; padding: 50px 20px; text-align: center; }
+    header h1 { font-size: 40px; margin-bottom: 10px; }
+    header p { font-size: 18px; }
+    .btn-primary { background: #ffb100; padding: 12px 25px; color: #000; text-decoration: none; font-weight: bold; border-radius: 6px; }
 
-    .container { width: 90%; max-width: 1100px; margin: auto; padding: 40px 0; }
+    /* Expertise Grid */
+    .expertise-section { padding: 50px 20px; text-align: center; }
+    .expertise-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 30px; }
+    .card { background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 3px 10px rgba(0,0,0,0.1); text-align: center; }
+    .card img { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; }
+    .card h3 { margin-top: 15px; font-size: 20px; }
 
-    .services {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 25px;
-  text-align: center;
-}
-    .service-box { background: white; padding: 20px; border-radius: 10px; flex: 1; min-width: 250px; max-width: 300px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
-    .service-box h3 { margin-top: 0; color: #0a3d62; }
+    /* Contact Section */
+    .contact-section { background: #fff; padding: 50px 20px; }
+    form { max-width: 500px; margin: auto; background: #f9f9f9; padding: 25px; border-radius: 10px; }
+    input, textarea { width: 100%; padding: 12px; margin: 8px 0; border-radius: 6px; border: 1px solid #ccc; }
+    button { background: #004aad; color: #fff; padding: 12px; width: 100%; border: none; border-radius: 6px; font-size: 16px; cursor: pointer; }
 
-    .cta-section { background:#0a3d62; color:white; text-align:center; padding:40px 20px; margin-top:40px; }
-    .cta-section a { background:#f39c12; padding:12px 25px; border-radius:5px; color:white; text-decoration:none; font-size:18px; }
+    /* Floating Buttons */
+    .float-whatsapp, .float-call { position: fixed; bottom: 20px; right: 20px; z-index: 999; }
+    .float-call { right: 80px; }
+    .float-whatsapp img, .float-call img { width: 55px; height: 55px; border-radius: 50%; box-shadow: 0 3px 8px rgba(0,0,0,0.3); }
 
-    form { background:white; padding:25px; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.1); }
-    form input, form textarea { width:100%; padding:10px; margin:10px 0; border-radius:5px; border:1px solid #ccc; }
-    form button { background:#0a3d62; color:white; padding:12px 20px; border:none; border-radius:5px; cursor:pointer; font-size:16px; }
+      
+    /* Top Bar */
+    .top-bar{position:sticky;top:0;z-index:1000;background:#002f6c;color:#fff;}
+    .top-bar-inner{display:flex;gap:10px;align-items:center;justify-content:flex-end;padding:8px 20px;font-size:15px;flex-wrap:wrap}
+    .top-link{display:inline-flex;align-items:center;gap:6px;color:#ffb100;text-decoration:none;font-weight:bold}
+    .top-link img{width:18px;height:18px}
+    .sep{color:#9bb3d9}
+    @media (max-width:768px){.top-bar-inner{justify-content:center;font-size:14px}}
 
-    footer { text-align:center; padding:20px; background:#0a3d62; color:white; margin-top:40px; }
   </style>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://raj-engineering.onrender.com/#rajengineering",
+  "name": "Raj Engineering",
+  "url": "https://raj-engineering.onrender.com/",
+  "image": "https://raj-engineering.onrender.com/",
+  "description": "Raj Engineering is a top plastic die maker in Mumbai, India specializing in plastic moulds, bakelite moulds, blow moulds, PET moulds, electric & electronic moulds, CNC machining and AutoCAD design.",
+  "telephone": "+91-9820037983",
+  "email": "rajengineeringmould@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Mumbai",
+    "addressRegion": "Maharashtra",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "19.1621",
+    "longitude": "72.8479"
+  },
+  "areaServed": "Mumbai",
+  "hasMap": "https://www.google.com/maps/place/Raj+Engineering+-+Top+Plastic+Die+Maker+In+Mumbai+India/data=!4m2!3m1!1s0x0:0x97336a0a70b25529",
+  "sameAs": [
+    "https://wa.me/919820037983"
+  ]
+}
+</script>
 </head>
+
 <body>
-
-<header>
-  <h1>Raj Engineering – Plastic Die & Mould Manufacturer in Mumbai</h1>
-  <p>Top Plastic Die Maker in Mumbai, India – Bakelite Mould, Blow Mould & PET Mould Manufacturers</p>
-</header>
-
-<section class="container" id="about">
-  <h2>About Raj Engineering – Mumbai’s Leading Plastic Die Maker</h2>
-  <p>Raj Engineering is recognized as one of the <strong>top plastic die makers in Mumbai</strong>, delivering high‑precision mould manufacturing services for industries across India. We specialize in creating durable and accurate <strong>Bakelite moulds</strong>, <strong>Blow moulds</strong>, <strong>PET moulds</strong>, and <strong>Plastic moulds</strong> tailored to customer requirements.</p>
-  <p>As a trusted <strong>plastic mould manufacturer in Mumbai</strong>, we focus on quality engineering, advanced machining technology, and long‑lasting mould performance. Our moulds are used in packaging, electronics, automotive, manufacturing, and consumer goods sectors.</p>
-</section>
-
-<section class="container" id="services">
-  <h2>Our Expertise</h2>
-  <div class="services">
-    <div class="service-box">
-      <h3>Bakelite Mould Manufacturing</h3>
-      <p>High-precision and heat-resistant Bakelite moulds designed for industrial durability and long life.</p>
+  <!-- Top Contact Bar -->
+  <!-- Top Contact Bar -->
+  <div class="top-bar">
+    <div class="top-bar-inner">
+      <a class="top-link" href="tel:+919820037983" aria-label="Call Raj Engineering">
+        <img src="https://cdn-icons-png.flaticon.com/512/597/597177.png" alt="Call" />
+        <span>+91 98200 37983</span>
+      </a>
+      <span class="sep">|</span>
+      <a class="top-link" href="mailto:rajengineeringmould@gmail.com" aria-label="Email Raj Engineering">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" />
+        <span>rajengineeringmould@gmail.com</span>
+      </a>
+      <span class="sep">|</span>
+      <a class="top-link" href="https://wa.me/919820037983" target="_blank" aria-label="WhatsApp Raj Engineering">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+        <span>WhatsApp</span>
+      </a>
     </div>
+  </div>
+  <header>
+    <h1>Raj Engineering</h1>
+    <p>Top Plastic Die Maker in Mumbai, India</p>
+    <a href="#contact" class="btn-primary">Get a Free Quote</a>
+  </header>
 
-    <div class="service-box">
-      <h3>Blow Mould Manufacturing</h3>
-      <p>Custom blow moulds engineered for production of bottles, containers, and hollow components.</p>
+  <section class="expertise-section">
+    <h2>Our Expertise</h2>
+    <p>High‑precision mould manufacturing with advanced CNC & CAD design.</p>
+
+    <div class="expertise-grid">
+
+      <div class="card">
+        <img src="https://img2.exportersindia.com/product_images/bc-small/2019/2/1335896/vertical-moulds-1550228933-4723241.jpeg" />
+        <h3>Plastic Mould Manufacturer</h3>
+      </div>
+
+      <div class="card">
+        <img src="https://img2.exportersindia.com/product_images/bc-small/dir_45/1335896/bulb-holder-2030012.jpg" />
+        <h3>Electric & Electronic Moulds</h3>
+      </div>
+
+      <div class="card">
+        <img src="https://img2.exportersindia.com/product_images/bc-small/dir_45/1335896/mould-die-manufacturer-454925.jpg" />
+        <h3>CNC Machine Work</h3>
+      </div>
+
+      <div class="card">
+        <img src="https://img2.exportersindia.com/product_images/bc-small/2019/2/1335896/vertical-moulds-1550228933-4723241.jpeg" />
+        <h3>AutoCAD Design & Development</h3>
+      </div>
+
     </div>
+  </section>
 
-    <div class="service-box">
-      <h3>PET Mould Manufacturers in Mumbai</h3>
-      <p>Reliable and accurate PET moulds with superior finish and performance for packaging industries.</p>
-    </div>
+  <section id="contact" class="contact-section">
+  <h2 style="text-align:center;">Contact & Location</h2>
+  <div class="contact-grid" style="max-width:1100px;margin:30px auto 0;display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:stretch;">
+    <!-- Contact Form -->
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <input type="text" placeholder="Phone Number" required />
+      <textarea placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
 
-    <div class="service-box">
-      <h3>Plastic Mould Manufacturer</h3>
-      <p>End-to-end plastic mould manufacturing solutions with high precision, durability, and production efficiency.</p>
-    </div>
-
-    <div class="service-box">
-      <h3>Electric & Electronic Mould Manufacturer</h3>
-      <p>Specialized moulds for electric and electronic components ensuring accuracy, safety, and flawless design.</p>
+    <!-- Google Map -->
+    <div style="border-radius:12px;overflow:hidden;box-shadow:0 4px 15px rgba(0,0,0,0.15);">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15086.06784167855!2d72.8479!3d19.1621!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x97336a0a70b25529!2sRaj%20Engineering%20-%20Top%20Plastic%20Die%20Maker%20In%20Mumbai%20India!5e0!3m2!1sen!2sin!4v1720000000000"
+        width="100%" height="100%" style="border:0;min-height:420px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
     </div>
   </div>
 </section>
 
-<section class="cta-section">
-  <h2>Need High‑Quality Moulds for Your Business?</h2>
-  <p>Get in touch with Mumbai's leading plastic die makers.</p>
-  <a href="#contact"">Get a Free Quote</a>
-</section>
-
-<section class="container" id="contact">
-  <h2>Contact Us</h2>
-  <form action="#" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required />
-    <input type="email" name="email" placeholder="Your Email" required />
-    <input type="text" name="phone" placeholder="Phone Number" required />
-    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-    <button type="submit">Submit</button>
-  </form>
-</section>
-
-<footer>
-  © 2025 Raj Engineering – All Rights Reserved
-</footer>
-
-  
-<!-- Floating WhatsApp & Call Buttons -->
 <style>
-.floating-buttons {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  z-index: 999;
-}
-.floating-buttons a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-  text-decoration: none;
-  color: white;
-  font-size: 26px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-}
-.whatsapp-btn { background: #25D366; }
-.call-btn { background: #0a3d62; }
-
-@media(max-width: 600px) {
-  .floating-buttons a { width: 50px; height: 50px; font-size: 22px; }
+@media(max-width:768px){
+  .contact-grid{grid-template-columns:1fr !important;}
 }
 </style>
 
-<div class="floating-buttons">
-  <a href="https://wa.me/919820037983" target="_blank" class="whatsapp-btn"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" style="width:32px;height:32px;" /></a>
-  <a href="tel:9820037983" class="call-btn">📞</a>
-</div>
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/919820037983" class="float-whatsapp" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" />
+  </a>
+
+  <!-- Call Button -->
+  <a href="tel:+919820037983" class="float-call">
+    <img src="https://cdn-icons-png.flaticon.com/512/597/597177.png" />
+  </a>
 
 </body>
 </html>
